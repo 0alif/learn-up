@@ -7,7 +7,7 @@ import Service from '../Service/Service';
 const Services = () => {
 
     const [courses, setCourses] = useState([]);
-
+    // load data form public folder as fakedb
     useEffect(() => {
         fetch('./fakedb.json')
             .then(res => res.json())
@@ -16,6 +16,7 @@ const Services = () => {
     return (
         <div className="mt-5 pt-3">
             <Container className="m-5">
+                {/* send data to Service component */}
                 <Row xs={1} md={2} className="g-4">
                     {
                         courses.map(product => <Service key={product.id} product={product}></Service>)

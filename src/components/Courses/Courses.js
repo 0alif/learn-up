@@ -5,7 +5,7 @@ import Course from '../Course/Course';
 const Courses = () => {
 
     const [courses, setCourses] = useState([]);
-
+    // load data form public folder
     useEffect(() => {
         fetch('./fakedb.json')
             .then(res => res.json())
@@ -15,6 +15,7 @@ const Courses = () => {
     return (
         <div className="m-5">
             <Container>
+                {/* send data to Course component */}
                 <Row xs={1} md={2} className="g-4">
                     {
                         courses.map(course => <Course key={course.id} course={course}></Course>)
