@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import './Navigation.css'
 
 const Navigation = () => {
     return (
-        <div>
+        <div className="navbar">
             <Navbar bg="light" variant="light">
                 <Container>
                     <Navbar.Brand>
@@ -15,14 +16,18 @@ const Navigation = () => {
                             fontWeight: "bold",
                             color: "red"
                         }}>Home</NavLink>
-                        <NavLink className="me-4 text-decoration-none" to="/about" activeStyle={{
-                            fontWeight: "bold",
-                            color: "red"
-                        }}>About</NavLink>
                         <NavLink className="me-4 text-decoration-none" to="/services" activeStyle={{
                             fontWeight: "bold",
                             color: "red"
                         }}>Services</NavLink>
+                        <NavLink className="me-4 text-decoration-none" to="/about" activeStyle={{
+                            fontWeight: "bold",
+                            color: "red"
+                        }}>About</NavLink>
+                        <NavLink className="me-4 text-decoration-none" to="/contact" activeStyle={{
+                            fontWeight: "bold",
+                            color: "red"
+                        }}>Contact</NavLink>
                     </Nav>
                 </Container>
             </Navbar>

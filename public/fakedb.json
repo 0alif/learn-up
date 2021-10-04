@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "name": "AWS Certification: The Complete Course 2020",
+        "price": 15,
+        "details": "Amazon Web Services is the industry leader in cloud ecosystem IaaS (Infrastructure-as-a-Service) and PaaS (Platform-as-a-Service), which may be used to build a scalable cloud application without worrying about infrastructure provisioning (compute, storage, and network) and administration delays.",
+        "duration": "14 week",
+        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-11-500x300.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Complete SEO Training In One Course",
+        "price": 42,
+        "duration": "13 week",
+        "details": "SEO Training (Search Engine Optimization) Learn how to get your website to the top of Google search results. This interactive short course will show you how your website's content, mobile optimization, and usability can all help you improve your site's overall performance. Learn how to create an SEO strategy and track its effectiveness over time.",
+        "author": "Jonath Poul",
+        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-img-1-500x300.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Hands-On Tableau Training For Data Science 2019",
+        "price": 60,
+        "details": "Tableau 2020 enables you or key decision-makers to find data patterns like customer purchase behavior, sales trends, or manufacturing bottlenecks by teaching you how to visualize data. You'll learn how to use Tableau's tools to easily, rapidly, and aesthetically explore, experiment with, fix, prepare, and display data",
+        "duration": "16 week",
+        "author": "Adnim",
+        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-2-500x300.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Design & Art Exam Prep Seminar – DNABOK Guide",
+        "price": 15,
+        "details": "The purpose of art in product design is to better understand and guide your user's emotional state as they interact with your product. Your design process will become easier as you become better at reading user moods and reactions without having to ask for clarification, and your products will become more engaging to users.",
+        "duration": "17 week",
+        "author": "Shilpa D. Singh",
+        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-img-3-500x300.jpg"
+    },
+    {
+        "id": 5,
+        "name": "PMP Exam Prep Seminar – PMBOK Guide 6 Tableau.",
+        "price": 29,
+        "details": "Tableau 2020 enables you or key decision-makers to find data patterns like customer purchase behavior, sales trends, or manufacturing bottlenecks by teaching you how to visualize data. You'll learn how to use Tableau's tools to easily, rapidly, and aesthetically explore, experiment with, fix, prepare, and display data.",
+        "duration": "13 week",
+        "author": "Admin",
+        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-img-500x300.jpg"
+    },
+    {
+        "id": 6,
+        "name": "TESOL Certificate, Part 1: Teach English Now! Specialization",
+        "price": 89,
+        "details": "This specialization is the first of two specializations that make up the TESOL Certificate from Arizona State University. In this specialization. It will elaborate upon basic design for lesson plans and provide access to professional resources. In the final Capstone Project, in collaboration with Arizona State University’s Global Launch, you will apply the skills you learned by designing a lesson plan which includes learning outcomes, assessments, materials, classroom management techniques and the learning activities themselves.  When you complete this specialization, go on to the second specialization in order to complete your TESOL certificate experience!",
+        "duration": "18 week",
+        "author": "Emilia Gracia",
+        "img": "https://learnup.smartdemowp.com/wp-content/uploads/2021/06/course-img-1-500x300.jpg"
+    },
+    {
+        "id": 7,
+        "name": "2021 Complete Python Bootcamp From Zero to Hero in Python",
+        "price": 89,
+        "details": "You will get lifetime access to over 100 lectures plus corresponding Notebooks for the lectures! This course comes with a 30 day money back guarantee! If you are not satisfied in any way, you'll get your money back. Plus you will keep access to the Notebooks as a thank you for trying out the course! So what are you waiting for? Learn Python in a way that will advance your career and increase your knowledge, all in a fun and practical way!",
+        "duration": "13 week",
+        "author": "Jose Portilla",
+        "img": "https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg"
+    },
+    {
+        "id": 8,
+        "name": "CS50's Web Programming with Python and JavaScript",
+        "price": 199,
+        "details": "This course picks up where CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.",
+        "duration": "12 week",
+        "author": "David J. Malan",
+        "img": "https://online-learning.harvard.edu/sites/default/files/styles/header/public/course/CS50x_web_4-modified.jpg?itok=8wo8PUle"
+    },
+    {
+        "id": 9,
+        "name": "CS50's Understanding Technology",
+        "price": 99,
+        "details": "This is CS50’s introduction to technology for students who don’t (yet!) consider themselves computer persons.",
+        "duration": "17 week",
+        "author": "David J.Malan",
+        "img": "https://prod-discovery.edx-cdn.org/media/course/image/9e0d9bd0-8557-49bc-a949-4fc7ff7727ac-0924d9e176ac.small.jpg"
+    },
+    {
+        "id": 10,
+        "name": "CS50 for Lawyers",
+        "price": 199,
+        "details": "This course is a variant of Harvard University's introduction to computer science, CS50, designed especially for lawyers (and law students).",
+        "duration": "18 week",
+        "author": "Doug Lloyd",
+        "img": "https://online-learning.harvard.edu/sites/default/files/styles/header/public/course/cs50-law.jpg?itok=9O4h3ta7"
+    }
+]

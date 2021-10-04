@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Services = () => {
+const Contact = () => {
+
     return (
         <div className="mt-5 pt-3">
-            <h2>Services</h2>
+
         </div>
     );
 };
 
-export default Services;
+export default Contact;

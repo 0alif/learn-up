@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
 import './Footer.css';
 
 const Footer = () => {
@@ -24,6 +25,15 @@ const Footer = () => {
                         Home
                     </NavLink>
                     <NavLink className="text-decoration-none"
+                        to="/services"
+                        activeStyle={{
+                            fontWeight: "bold",
+                            color: "red"
+                        }}
+                    >
+                        Services
+                    </NavLink>
+                    <NavLink className="text-decoration-none"
                         to="/about"
                         activeStyle={{
                             fontWeight: "bold",
@@ -33,14 +43,21 @@ const Footer = () => {
                         About
                     </NavLink>
                     <NavLink className="text-decoration-none"
-                        to="/services"
+                        to="/contact"
                         activeStyle={{
                             fontWeight: "bold",
                             color: "red"
                         }}
                     >
-                        Services
+                        Contact
                     </NavLink>
+                </div>
+                <div>
+                    <SocialIcon className="social-icon" url="https://facebook.com/" />
+                    <br />
+                    <SocialIcon className="social-icon" url="https://twitter.com/" />
+                    <br />
+                    <SocialIcon className="social-icon" url="https://linkdin.com/" />
                 </div>
             </div>
             <p className="mt-5">&#169;All rights reserved</p>

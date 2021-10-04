@@ -6,3 +6,6 @@
   display: grid;
   grid-column: auto;
 }
+.social-icon {
+  margin-bottom: 5px;
+}
