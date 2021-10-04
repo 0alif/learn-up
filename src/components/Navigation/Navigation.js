@@ -7,7 +7,9 @@ const Navigation = () => {
         <div>
             <Navbar bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand>Learn Up</Navbar.Brand>
+                    <Navbar.Brand>
+                        <img src="https://learnup.smartdemowp.com/wp-content/themes/learnup/assets/images/logo.png" width="150" alt="" />
+                    </Navbar.Brand>
                     <Nav className="me-auto">
                         <NavLink className="me-4 text-decoration-none" to="/home" activeStyle={{
                             fontWeight: "bold",

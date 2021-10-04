@@ -1,0 +1,8 @@
+.footer-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-nav {
+  display: grid;
+  grid-column: auto;
+}
