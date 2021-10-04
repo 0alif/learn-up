@@ -1,6 +1,6 @@
 # Learn Up
 
-## [Learn Up](http://www.google.fr)
+## [Learn Up](https://sharp-morse-3f1c1b.netlify.app/)
 
 - You can learn online
 - We provide recorded and live class
