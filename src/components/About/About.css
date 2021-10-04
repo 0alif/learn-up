@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+}
+.about-text {
+  text-align: left;
+}
+.about-text h1 {
+  font-weight: 700;
+}
+.about-text span {
+  color: #d70040;
+}
+.btn {
+  background-color: #d70040;
+}
