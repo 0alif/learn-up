@@ -13,7 +13,7 @@ const About = () => {
                 <p>Learnup helps learners to train quicker and the easiest way to increase performance.</p>
                 <h5>Saves Time</h5>
                 <p>Our instructor uploads the materials in time and shares the content with the learners in time.</p>
-                <Button variant="secondary">Know More</Button>
+                <Button variant="secondary">Know More &#10140;</Button>
             </div>
             <div>
                 <img src="https://learnup.smartdemowp.com/wp-content/uploads/2021/05/edu_2.png" alt="" />

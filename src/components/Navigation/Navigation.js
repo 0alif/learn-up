@@ -13,19 +13,15 @@ const Navigation = () => {
                     </Navbar.Brand>
                     <Nav className="me-auto">
                         <NavLink className="me-4 text-decoration-none" to="/home" activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}>Home</NavLink>
                         <NavLink className="me-4 text-decoration-none" to="/services" activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}>Services</NavLink>
                         <NavLink className="me-4 text-decoration-none" to="/about" activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}>About</NavLink>
                         <NavLink className="me-4 text-decoration-none" to="/contact" activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}>Contact</NavLink>
                     </Nav>

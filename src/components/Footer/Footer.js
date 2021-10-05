@@ -18,7 +18,6 @@ const Footer = () => {
                     <NavLink className="text-decoration-none"
                         to="/home"
                         activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}
                     >
@@ -27,7 +26,6 @@ const Footer = () => {
                     <NavLink className="text-decoration-none"
                         to="/services"
                         activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}
                     >
@@ -36,7 +34,6 @@ const Footer = () => {
                     <NavLink className="text-decoration-none"
                         to="/about"
                         activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}
                     >
@@ -45,7 +42,6 @@ const Footer = () => {
                     <NavLink className="text-decoration-none"
                         to="/contact"
                         activeStyle={{
-                            fontWeight: "bold",
                             color: "red"
                         }}
                     >
@@ -60,7 +56,7 @@ const Footer = () => {
                     <SocialIcon className="social-icon" url="https://linkdin.com/" />
                 </div>
             </div>
-            <p className="mt-5">&#169;All rights reserved</p>
+            <p className="mt-5">&#169;All rights reserved.</p>
         </div>
     );
 };

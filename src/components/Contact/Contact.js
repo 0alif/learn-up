@@ -3,12 +3,12 @@ import { Button, Col, Container, FloatingLabel, Form, FormControl, InputGroup, R
 import './Contact.css';
 
 const Contact = () => {
-
     return (
-        <div className="mt-5 mb-5 pt-5 bg-light">
+        <div className="mt-5 mb-5 pt-5">
+            {/* contact components from */}
             <Container className="contact">
                 <div>
-                    <h3>Fillup The Form</h3>
+                    <h3 className="text">Fillup The Form</h3>
                     <Row className="g-2 mb-3">
                         <Col md>
                             <FloatingLabel controlId="floatingInputGrid" label="Email">
@@ -31,7 +31,8 @@ const Contact = () => {
                     <Button variant="secondary">Submit Request</Button>
                 </div>
                 <div>
-                    <h3>Reach Us</h3>
+                    {/* contact components details */}
+                    <h3 className="text">Reach Us</h3>
                     <h2>Get In Touch</h2>
                     <h5>Reach Us</h5>
                     <p>2512, New Market,

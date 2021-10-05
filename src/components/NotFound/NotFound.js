@@ -4,6 +4,7 @@ import { useHistory } from 'react-router';
 import './NotFound.css';
 
 const NotFound = () => {
+    // click and back to home
     const history = useHistory();
     const backToHome = () => {
         history.push('/home');
